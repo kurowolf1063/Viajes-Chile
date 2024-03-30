@@ -1,0 +1,51 @@
+/*haciendo un smooth scroll.*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*_____________________________________*/
+
+/*Colores de letras y fondos*/
+.sinfondo{
+  background-color: #1f9ea9;
+}
+
+.colorblanco{
+  color: white;
+}
+span, h1, p {
+  color: white !important;
+}
+
+footer{
+  background-color:dodgerblue;
+}
+
+.cardbgcolor{
+  background-color:dodgerblue;  
+}
+i{
+  color: white;
+  font-size: 30px;
+  }
+  
+/*_____________________________________*/
+
+/*configuracion de carousel*/
+body{
+  font-family: 'PT Sans', sans-serif;
+  background-color: black;
+}
+.contenedor{
+  max-width: 100vw;
+      
+  margin: auto;
+}
+.carousel-item{
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  background-size: cover;
+}
+/*_____________________________________*/
